@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+} 
+
+body{
+    background-color: black;
+    height: 1000px;
+    width: 100%;
+}
+.topper{
+    height: 600px;
+    background-image:url("Images/65f7e7eb247b425fc60a43cf_Emilie.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.topper h1{
+    color: #4af6cd;
+    font-size: 45px;
+    font-family: sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 80px;
+    padding: 0px 30px;
+}
+
+
+.topper p{
+    color: rgb(255 255 255 / 90%);
+    font-size: 23px;
+    font-family: sans-serif;
+    line-height: 1.5;
+    padding: 0px 30px ;
+    font-weight: 600;
+    font-family: 'Firasans', sans-serif;
+
+    
+}
+
+.middle{
+    text-align: center;
+    color:rgb(255 255 255 / 90%);
+    font-family: 'Firasans', sans-serif;
+    padding: 20px;
+    
+
+}
+
+
+.middle h1{
+    text-align: center;
+    color: #4af6cd;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.middle p{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: -5px;
+}
+
+.box{
+    display: flex;
+
+}
+
+.boxes{
+    text-align: center;
+    width: 33%;
+    color:  rgb(255 255 255 / 90%);
+    font-family: 'Firasans', sans-serif;
+    padding: 20px;
+
+
+}
+
+
+.boxes h1{
+    font-size: 35px;
+    font-weight: 700
+}
+
+
+.boxes p{
+    font-size: 17px;
+    font-weight:500;
+    line-height: 1.4;
+}
